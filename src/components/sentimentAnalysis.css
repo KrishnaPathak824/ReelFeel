@@ -1,0 +1,84 @@
+.middle-card{
+    width: 750px;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 1px black;
+    background: gray;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .cardContainer{
+    display: flex;
+  }
+  
+  .upper{
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    height: 25%;
+    align-items: flex-start;
+  }
+  
+.title,
+.description {
+    margin-left: 30px;
+}
+  
+  .middle{
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: left;
+    height: 15%;
+    align-items: flex-start;
+  }
+
+  .analyze-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+  .reference-reviews{
+    margin-left: 30px;
+    
+    text-align: left;
+    height: 15%;
+    align-items: flex-start;
+  }
+
+  .reference-title{
+    font-size: x-large;
+    margin: 10px 0;
+
+  }
+
+  .reference-movie {
+    font-size: larger;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.movie-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.movie-title{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 80%;
+  font-size: large;
+}
+
+.reviews-count{
+  font-size: large;
+}

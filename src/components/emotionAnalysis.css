@@ -1,0 +1,25 @@
+.middle-card{
+    width: 850px;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 1px black;
+    background: gray;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .cardContainer{
+    display: flex;
+  }
+  
+  .upper{
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    height: 25%;
+    align-items: flex-start;
+  }
+  
+.title,
+.description {
+    margin-left: 30px;
+}

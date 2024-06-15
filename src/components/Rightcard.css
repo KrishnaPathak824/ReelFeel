@@ -1,0 +1,75 @@
+:root {
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+.Cardcontainer {
+    width: 20%;
+    height: 500px;
+    margin-right: 30px;
+  }
+.item {
+  display: flex;
+  width: 250px;
+  height: 160px;
+  padding: 1em;
+  font-weight: 200;
+  color: var(--clr-light);
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 23.24px;
+  border-radius: 10px;
+  margin-bottom: 2ch;
+}
+.Cardcontainer{
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.item-1{
+  background: #74B4FF;
+
+}
+.item-2{
+  background-color:#9AFFAAB2;
+
+}
+
+.item-3{
+  background: #FFC1C1B2;
+
+}
+
+.icon-container {
+  
+  border-radius: 50%; 
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; 
+}
+
+.reviews-info {
+    text-align: left;
+    
+}
+
+.review-count {
+text-align: center;
+}
+
+.review-text {
+  position:absolute;
+   text-align:left;
+}
